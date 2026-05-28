@@ -354,9 +354,6 @@ def streaming_chatbot() -> None:
         except Exception as e:
             print(f"\n\033[91m[Error Calling API]: {e}\033[0m\n")
 
-    # TODO: Setup interactive session, prompt user for input, stream response, and update history.
-    raise NotImplementedError("Implement streaming_chatbot")
-
 
 # ---------------------------------------------------------------------------
 # Bonus Task A — Retry with exponential backoff
